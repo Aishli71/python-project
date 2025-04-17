@@ -1,0 +1,26 @@
+s="snake"
+g="gun"
+w="water"
+
+comp=input("enter comp choice:")
+player=input("enter the player's choice:")
+#choice= snake water gun
+
+if comp== s and player==g:
+    print("gun wins")
+
+elif comp==g and player==s:
+    print("comp wins")
+
+elif comp== s and player==w:
+    print("comp wins")
+
+elif comp== w and player==s:
+    print("player wins")
+
+elif comp==g and player==w:
+    print("comp wins")
+
+else:
+    comp==w and player==g
+    print("player wins")
